@@ -20,8 +20,7 @@ def main(solutionName):
             assert(res == expected)
         except AssertionError:
             print(
-                f"Test case failed for {input} got -> {res} "
-                 "expected -> {expected}"
+                f"Test case failed for {inputs} got -> {res} expected -> {expected}"
             )
 
 
